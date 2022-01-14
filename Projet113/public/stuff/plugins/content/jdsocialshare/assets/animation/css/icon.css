@@ -1,0 +1,417 @@
+@font-face {
+	font-family: 'JDSocial';
+	src: url('../fonts/JDSocial_2.eot?gd6mr8');
+	src: url('../fonts/JDSocial_2.eot?#iefixgd6mr8') format('embedded-opentype'),
+		url('../fonts/JDSocial_2.woff?gd6mr8') format('woff'),
+		url('../fonts/JDSocial_2.ttf?gd6mr8') format('truetype'),
+		url('../fonts/JDSocial_2.svg?gd6mr8#JDSocial') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?o9zlmh');
+	src: url('../fonts/icomoon.eot?o9zlmh#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?o9zlmh') format('truetype'),
+		url('../fonts/icomoon.woff?o9zlmh') format('woff'),
+		url('../fonts/icomoon.svg?o9zlmh#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.jd-social-share .dribbble:after {
+	content: "\e638";
+}
+
+.jd-social-share .rss {
+	background-color: #ff9845;
+	font-family: JDSocial;
+}
+
+/*.linkedin{font-family: JDSocial; color:#fff;}*/
+.jd-social-share .pinterest {
+	font-family: JDSocial;
+	background-color: #fe4445;
+}
+
+.jd-social-share .pinterest:after,
+.jd-social-share .pinterest:before {
+	content: "\e63a";
+}
+
+.jd-social-share .friendfeed {
+	background-color: #5989C0;
+	font-family: JDSocial;
+}
+
+.jd-social-share .friendfeed:after,
+.jd-social-share .friendfeed:before {
+	content: "\e61f";
+}
+
+.jd-social-share .buffer {
+	background-color: #222222;
+	font-family: JDSocial;
+}
+
+.jd-social-share .buffer:after,
+.jd-social-share .buffer:before {
+	content: "\e614";
+}
+
+.jd-social-share .digg {
+	background-color: #546B9F;
+	font-family: JDSocial;
+}
+
+.jd-social-share .digg:after,
+.jd-social-share .digg:before {
+	content: "\e61d";
+}
+
+.jd-social-share .evernote {
+	background-color: #7cbf4b;
+	font-family: JDSocial;
+}
+
+.jd-social-share .evernote:after,
+.jd-social-share .evernote:before {
+	content: "\e61e";
+}
+
+.jd-social-share .youtube {
+	background-color: #e74c3c;
+	font-family: JDSocial;
+}
+
+.jd-social-share .livejournal {
+	background-color: #336697;
+	font-family: JDSocial;
+}
+
+.jd-social-share .livejournal:after,
+.jd-social-share .livejournal:before {
+	content: "\e621";
+}
+
+.jd-social-share .hackernews {
+	background-color: #F08641;
+	font-family: JDSocial;
+}
+
+.jd-social-share .hackernews:after,
+.jd-social-share .hackernews:before {
+	content: "\e620";
+}
+
+.jd-social-share .newsvine {
+	background-color: #0D642E;
+	font-family: JDSocial;
+}
+
+.jd-social-share .newsvine:after,
+.jd-social-share .newsvine:before {
+	content: "\e623";
+}
+
+.jd-social-share .aol {
+	background-color: #222222;
+	font-family: JDSocial;
+}
+
+.jd-social-share .aol:after,
+.jd-social-share .aol:before {
+	content: "\e624";
+}
+
+.jd-social-share .gmail {
+	background-color: #DD4B39;
+	font-family: JDSocial;
+}
+
+.jd-social-share .gmail:after,
+.jd-social-share .gmail:before {
+	content: "\e625";
+}
+
+.jd-social-share .printfriendly {
+	background-color: #75AA33;
+	font-family: JDSocial;
+}
+
+.jd-social-share .printfriendly:after,
+.jd-social-share .printfriendly:before {
+	content: "\e627";
+}
+
+.jd-social-share .yahoomail {
+	background-color: #511295;
+	font-family: JDSocial;
+}
+
+.jd-social-share .yahoomail:after,
+.jd-social-share .yahoomail:before {
+	content: "\e62b";
+}
+
+.jd-social-share .amazon {
+	background-color: #F3A847;
+	font-family: JDSocial;
+}
+
+.jd-social-share .amazon:after,
+.jd-social-share .amazon:before {
+	content: "\e62d";
+}
+
+.jd-social-share .delicious {
+	background-color: #3398FC;
+	font-family: JDSocial;
+}
+
+.jd-social-share .delicious:after,
+.jd-social-share .delicious:before {
+	content: "\e62e";
+}
+
+.jd-social-share .reddit {
+	background-color: #FC461E;
+	font-family: JDSocial;
+}
+
+.jd-social-share .reddit:after,
+.jd-social-share .reddit:before {
+	content: "\e628";
+}
+
+.jd-social-share .vkontakte {
+	background-color: #4C75A3;
+	font-family: JDSocial;
+}
+
+.jd-social-share .vkontakte:after,
+.jd-social-share .vkontakte:before {
+	content: "\e629";
+}
+
+.jd-social-share .linkedin {
+	font-family: JDSocial;
+	color: #fff;
+}
+
+.jd-social-share .linkedin:after,
+.jd-social-share .linkedin:before {
+	content: "\e631";
+}
+
+.jd-social-share .myspace {
+	background-color: #3A5998;
+	font-family: JDSocial;
+}
+
+.jd-social-share .myspace:after,
+.jd-social-share .myspace:before {
+	content: "\e632";
+}
+
+.jd-social-share .blogger {
+	background-color: #F59038;
+	font-family: JDSocial;
+}
+
+.jd-social-share .blogger:after,
+.jd-social-share .blogger:before {
+	content: "\e636";
+}
+
+.jd-social-share .stumbleupon {
+	background-color: #EA4B24;
+	font-family: JDSocial;
+}
+
+.jd-social-share .stumbleupon:after,
+.jd-social-share .stumbleupon:before {
+	content: "\e63d";
+}
+
+.jd-social-share .tumblr {
+	background-color: #32506D;
+	font-family: JDSocial;
+}
+
+.jd-social-share .tumblr:after,
+.jd-social-share .tumblr:before {
+	content: "\e63e";
+}
+
+.jd-social-share .like {
+	background-color: #DD4B39;
+	font-family: JDSocial;
+}
+
+.jd-social-share .like:after,
+.jd-social-share .like:before {
+	content: "\e60e";
+}
+
+.jd-social-share .twitter:after,
+.jd-social-share .twitter:before {
+	content: "\e640";
+}
+
+.jd-social-share .twitter {
+	font-family: JDSocial;
+	color: #fff;
+	background: #3c9cd8;
+}
+
+/*whatsapp icon code*/
+
+.jd-social-share [class^="icon-"],
+.jd-social-share [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.jd-social-share .whatsapp:after,
+.jd-social-share .whatsapp:before {
+	content: "\ea93";
+	font-family: 'icomoon' !important;
+}
+
+.jd-social-share .whatsapp {
+	background-color: #2cb742;
+}
+
+.jd-social-share .facebook {
+	font-family: JDSocial;
+	color: #fff;
+	background: #395aa1;
+}
+
+.jd-social-share .facebook:after,
+.jd-social-share .facebook:before {
+	content: "\e63f";
+}
+
+.jd-social-share .friendfeed {
+	background-color: #5989C0;
+	font-family: JDSocial;
+}
+
+.jd-social-share .buffer {
+	background-color: #222222;
+	font-family: JDSocial;
+}
+
+.jd-social-share .digg {
+	background-color: #546B9F;
+	font-family: JDSocial;
+}
+
+.jd-social-share .evernote {
+	background-color: #7cbf4b;
+	font-family: JDSocial;
+}
+
+.jd-social-share .youtube {
+	background-color: #e74c3c;
+	font-family: JDSocial;
+}
+
+.jd-social-share .livejournal {
+	background-color: #336697;
+	font-family: JDSocial;
+}
+
+.jd-social-share .hackernews {
+	background-color: #F08641;
+	font-family: JDSocial;
+}
+
+.jd-social-share .newsvine {
+	background-color: #0D642E;
+	font-family: JDSocial;
+}
+
+.jd-social-share .aol {
+	background-color: #222222;
+	font-family: JDSocial;
+}
+
+.jd-social-share .gmail {
+	background-color: #DD4B39;
+	font-family: JDSocial;
+}
+
+.jd-social-share .printfriendly {
+	background-color: #75AA33;
+	font-family: JDSocial;
+}
+
+.jd-social-share .yahoomail {
+	background-color: #511295;
+	font-family: JDSocial;
+}
+
+.jd-social-share .amazon {
+	background-color: #F3A847;
+	font-family: JDSocial;
+}
+
+.jd-social-share .delicious {
+	background-color: #3398FC;
+	font-family: JDSocial;
+}
+
+.jd-social-share .reddit {
+	background-color: #FC461E;
+	font-family: JDSocial;
+}
+
+.jd-social-share .vkontakte {
+	background-color: #4C75A3;
+	font-family: JDSocial;
+}
+
+.jd-social-share .linkedin {
+	font-family: JDSocial;
+	color: #fff;
+	background-color: #127BB6
+}
+
+.jd-social-share .myspace {
+	background-color: #3A5998;
+	font-family: JDSocial;
+}
+
+.jd-social-share .blogger {
+	background-color: #F59038;
+	font-family: JDSocial;
+}
+
+.jd-social-share .stumbleupon {
+	background-color: #EA4B24;
+	font-family: JDSocial;
+}
+
+.jd-social-share .tumblr {
+	background-color: #32506D;
+	font-family: JDSocial;
+}
+
+.jd-social-share .like {
+	background-color: #DD4B39;
+	font-family: JDSocial;
+}

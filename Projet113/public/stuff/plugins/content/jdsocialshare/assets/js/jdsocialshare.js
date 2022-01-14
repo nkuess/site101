@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){jQuery("a.popup").on("click",function(){newwindow=window.open(e(this).attr("href"),"","height=470,width=470");if(window.focus){newwindow.focus()}return false})})
